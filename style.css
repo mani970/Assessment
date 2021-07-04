@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  background-color: rgb(255, 255, 255);
+  width: 177px;
+  height: 2700px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 25px 0px 20px -3px #ccc;
+}
+
+.Logo figure img {
+  height: 130px;
+  width: 140px;
+  padding: 18px;
+  position: relative;
+  left: 18px;
+  top: 24px;
+  border-bottom: 7px solid rgb(251, 251, 251);
+}
+
+.User figure img {
+  height: 50px;
+  width: 58px;
+  position: relative;
+  top: 41px;
+  left: 52px;
+}
+
+.User figure span {
+  color: #ccc;
+  padding: 5px 28px;
+  position: relative;
+  left: 18px;
+  top: 39px;
+}
+
+.Course_block {
+  background-color: lightblue;
+  border-left: 4px solid blue;
+  height: 123px;
+  position: relative;
+  top: 77px;
+}
+
+.Course figure img {
+  height: 30px;
+  position: relative;
+  width: 39px;
+  left: 54px;
+  top: 29px;
+}
+
+.Course figure span {
+  position: relative;
+  left: -24px;
+  top: 57px;
+  padding: 3px;
+  font-weight: bolder;
+  color: black;
+}
+
+.settings figure img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 112px;
+  left: 63px;
+}
+
+.settings figure span {
+  position: relative;
+  left: 12px;
+  color: #ccc;
+  top: 135px;
+}
+
+#Video_Block {
+  background-color: rgb(238, 236, 236);
+  position: relative;
+  left: 177px;
+  bottom: 2543px;
+}
+
+#Video_Block figure {
+  height: 2543px;
+  width: 2558px;
+}
+
+#Video_Block figure img {
+  margin: 10px 36px;
+  height: 30px;
+  width: 35px;
+  position: relative;
+  top: 20px;
+}
+
+#Video_Block figure span {
+  position: relative;
+  top: 4px;
+  right: 38px;
+  font-weight: 700;
+  font-size: 25px;
+  color: cadetblue;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: "Roboto", sans-serif;
+}
+
+#Video_Block figure input {
+  height: 42px;
+  width: 788px;
+  position: relative;
+  top: 110px;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+
+#Video_Block figure input::placeholder {
+  color: #000;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#Video_Block figure .or {
+  position: relative;
+  top: 179px;
+  right: 422px;
+  font-size: 20px;
+  color: #000;
+}
+
+#Video_Block figure .upload {
+  background-color: #fff;
+  height: 153px;
+  width: 194px;
+  position: relative;
+  top: 170px;
+  font-weight: 900;
+  left: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
